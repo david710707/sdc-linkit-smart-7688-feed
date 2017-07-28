@@ -3,12 +3,6 @@
 [ "$(uci get system.@system[-1].linkit_firstboot)" = "1" ] && return 0
 
 . /lib/ramips.sh
-board=$(ramips_board_name)
-
-[ "$board" = "linkits7688d" ] || {
-	rm -f /etc/avahi/services/arduino.service
-	return 0
-}
 
 [ -n "$(grep -q linuxgpio /etc/avrdude.conf)" ] && exit 0
 
