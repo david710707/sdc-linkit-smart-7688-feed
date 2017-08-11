@@ -15,8 +15,7 @@ define Package/mtk-linkit
   	+gdbserver +curl +strace +coreutils +coreutils-stty \
   	+avahi-nodbus-daemon +mountd \
 	+uhttpd +rpcd +rpcd-mod-iwinfo +git +git-http \
-	+python +python-pyserial +python-pip +hidapi \
-	+libmraa +libupm +node +node-hid +node-cylon-firmata +yunbridge \
+	+hidapi \
 	+luci +luci-theme-openwrt +luci-lib-json \
 	+rpcd-mod-rpcsys +cgi-io +avrdude +spi-tools +uboot-envtools \
 	+kmod-fs-vfat +kmod-fs-exfat +kmod-i2c-core +kmod-i2c-ralink \
